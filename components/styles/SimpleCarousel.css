@@ -1,0 +1,20 @@
+.simple-carousel {
+    width: 100%;
+    height: 300px; /* Set the height of the carousel as needed */
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .carousel-slide {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .carousel-slide.active {
+    opacity: 1;
+  }
+  

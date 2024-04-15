@@ -1,0 +1,292 @@
+.cricle-mainDiv{
+    position: relative;
+}
+
+.img-Div{
+    width: 100%;
+    /* height: 300px; */
+}
+
+.img{
+    width: 100% !important;
+    height: 440px;
+}
+
+.textOne{
+    position: absolute;
+    top: 6%;
+    left: 44%;
+}
+
+
+.textOne-span{
+    position: absolute;
+    color:#1a369b;
+    top: 18%;
+    left: 42%;
+    font-size: smaller;
+
+}
+
+
+.textTwo{
+    position: absolute;
+    left: 16%;
+    top: 20%;
+    z-index: 10;
+}
+
+.textTwo-span{
+    position: absolute;
+    color:#1a369b;
+    left: 12%;
+    z-index: 10;
+    top: 32%;
+    font-size: smaller;
+
+}
+
+.textThree{
+    position: absolute;
+    right: 16%;
+    top: 20%;
+    z-index: 10;
+}
+.textThree-span{
+    position: absolute;
+    color:#1a369b;
+    left: 4;
+    text-align: center;
+    font-size: smaller;
+    top: 110%;
+    z-index: 10;
+}
+
+.textFour{
+    position: absolute;
+    top: 40%;
+    left: 5%;
+}
+.textFour-span{
+    position: absolute;
+    color:#1a369b;
+    top: 100%;
+    font-size: smaller;
+left: 2%;
+}
+
+
+.gandi-div{
+    position: absolute;
+    top: 30%;
+    left: 26%;
+}
+
+
+.gandi-img{
+    width: 200px;
+    object-fit: cover;
+}
+
+
+.textFive{
+    position: absolute;
+    top: 40%;
+    right: 5%;
+}
+
+.textFive-span{
+    position: absolute;
+    color:#1a369b;
+    top: 100%;
+    font-size: smaller;
+    
+}
+
+
+.textSix{
+    position: absolute;
+    top: 60%;
+    left: 16%;
+}
+.textSix-span{
+    position: absolute;
+    color:#1a369b;
+    top: 100%;
+    font-size: smaller;
+    /* left: 16%; */
+}
+
+.textSeven{
+    position: absolute;
+    top: 60%;
+    right: 16%;
+}
+.textSeven-span{
+    position: absolute;
+    color:#1a369b;
+    top: 100%;
+    font-size: smaller;
+    /* right: 16%; */
+}
+
+
+.textEight{
+    position: absolute;
+    color: red;
+    top: 76%;
+    left: 44%;
+}
+
+.textEight-span{
+    position: absolute;
+    color:#1a369b;
+    top: 100%;
+    font-size: smaller;
+    /* left: 44%; */
+}
+
+
+.icon{
+    color: #fff;
+    width: 24px;
+    height: 24px;
+}
+
+
+@media (max-width:768px) {
+    .cricle-contDiv{
+        padding: 0px 20%;
+    }
+}
+
+
+@media (max-width:768px) {
+    .gandi-div{
+        position: absolute;
+        top: 30%;
+        left: 28%;
+    }
+}
+@media(max-width:414px){
+    .gandi-div{
+        position:absolute;
+        left:25%;
+    }
+}
+@media (max-width:390px) {
+    .gandi-div{
+        position: absolute;
+        right: 25%;
+    }
+}
+@media (max-width:430px) {
+    .gandi-div{
+        position: absolute;
+        right: 22%;
+    }
+}
+@media (max-width:1024px) {
+    .gandi-div{
+        position: absolute;
+        right: 20%;
+    }
+}
+
+@media (max-width:700px) {
+    .cricle-contDiv{
+        padding: 0px 18%;
+    }
+}
+
+@media (max-width:650px) {
+    .cricle-contDiv{
+        padding: 0px 17%;
+    }
+}
+
+@media (max-width:600px) {
+    .cricle-contDiv{
+        padding: 0px 15%;
+    }
+}
+
+
+@media (max-width:550px) {
+    .cricle-contDiv{
+        padding: 0px 14%;
+    }
+}
+
+
+@media (max-width:500px) {
+    .cricle-contDiv{
+        padding: 0px 12%;
+    }
+}
+
+
+@media (max-width:480px) {
+    .cricle-contDiv{
+        padding: 0px 11%;
+    }
+}
+
+
+@media (max-width:460px) {
+    .cricle-contDiv{
+        padding: 0px 10%;
+    }
+}
+
+
+@media (max-width:450px) {
+    .cricle-contDiv{
+        padding: 0px 9%;
+    }
+}
+
+
+@media (max-width:440px) {
+    .cricle-contDiv{
+        padding: 0px 8%;
+    }
+}
+
+
+@media (max-width:430px) {
+    .cricle-contDiv{
+        padding: 0px 7%;
+    }
+}
+
+@media (max-width:420px) {
+    .cricle-contDiv{
+        padding: 0px 6%;
+    }
+}
+
+@media (max-width:410px) {
+    .cricle-contDiv{
+        padding: 0px 5%;
+    }
+}
+
+@media (max-width:400px) {
+    .cricle-contDiv{
+        padding: 0px 3%;
+    }
+}
+
+@media (max-width:390px) {
+    .cricle-contDiv{
+        padding: 0px 2%;
+        
+    }
+}
+
+@media (max-width:380px) {
+    .cricle-contDiv{
+        padding: 0px 1%;
+    }
+}

@@ -1,0 +1,11 @@
+.d3 {
+    margin: 0.5em 0;
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 2em;
+    color: #22313F ;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    /* text-shadow: 0 -0.09em 0 #22201f, 0 0.09em 0 #666363; */
+  }
+  

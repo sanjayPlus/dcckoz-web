@@ -1,0 +1,93 @@
+
+.contri-top{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* box-shadow: 0 2px 4px hsla(240,0%,55%,.549); */
+}
+
+.img-contri {
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+::placeholder {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.inputDiv-contri{
+    border: none;
+}
+
+.button-contri{
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 10px;
+    color: #fff;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 15px;
+}
+
+
+.bg-whatsapp{
+    background: #F1F4FF;
+    padding-top: 20px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.firstDiv-whatsapp{
+    background: #fff;
+    padding: 15px 15px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.inputDiv-whatsapp{
+    padding: 5px 10px;
+    border: solid 1px #000000;
+    border-radius: 6px;
+}
+
+.input-whatsapp{
+    border: none;
+    outline: none;
+}
+
+.buttonDiv-whatsapp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.button-whatsapp{
+    font-size: 14px;
+    padding: 4px 30px;
+    background: rebeccapurple;
+    color: #fff;
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+@media (max-width:576px) {
+    .img-contri {
+        margin-top: 60px;
+        margin-bottom: 20px;
+    }
+
+    ::placeholder {
+        font-size: 24px;
+        font-weight: bold;
+    }
+}

@@ -1,0 +1,73 @@
+
+nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin: 0 auto;
+    left: -15px;
+    right: 0;
+  }
+  
+  .nav-box {
+    display: flex;
+    padding: 8px;
+    background-color: #fff;
+    box-shadow: 0px 0px 16px 0px #4444;
+    border-radius: 8px 8px 0px 0px;
+  }
+  .nav-container {
+    display: flex;
+    width: 100%;
+    list-style: none;
+    justify-content: space-around;
+  }
+  .nav__item {
+    display: flex;
+    position: relative;
+    padding: 2px;
+  }
+  .nav__item.active .nav__item-icon {
+    margin-top: -26px;
+    box-shadow: 0px 0px 16px 0px #4444;
+  }
+  .nav__item.active .nav__item-text {
+    transform: scale(1);
+  }
+  .nav__item-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #2f3046;
+    text-decoration: none;
+  }
+  .nav__item-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.6em;
+    background-color: #fff;
+    border-radius: 50%;
+    height: 46px;
+    width: 46px;
+    transition: margin-top 250ms ease-in-out, box-shadow 250ms ease-in-out;
+  }
+  .nav__item-text {
+    position: absolute;
+    bottom: 0;
+    transform: scale(0);
+    transition: transform 250ms ease-in-out;
+  }
+  .react-calendar{
+    border: none !important;
+  }
+  abbr:where([title]) {
+    -webkit-text-decoration: underline dotted;
+    text-decoration: none  !important;
+}
+  @media screen and (max-width: 600px) {
+    nav {
+        left: 0;
+      
+      }
+    
+  }

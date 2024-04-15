@@ -1,0 +1,8 @@
+.scrollbar-container::-webkit-scrollbar {
+    width: 6px; /* Set the width of the scrollbar */
+  }
+
+  .scrollbar-container::-webkit-scrollbar-thumb {
+    background-color: #4f4f4f; /* Set the color of the scrollbar thumb */
+    border-radius: 3px; /* Set the border-radius of the scrollbar thumb */
+  }

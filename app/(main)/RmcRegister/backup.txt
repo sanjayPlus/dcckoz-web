@@ -1,0 +1,117 @@
+    <div className="max-w-sm mx-auto flex flex-col ">
+              {/*  */}
+              {/* <label
+              htmlFor="name"
+              className="block mb-2 text-sm font-medium text-black "
+            >
+              Name
+              
+            </label> */}
+              {/* name */}
+              <div
+                style={{ width: "100%", height: "50px" }}
+                className="my-3 rounded-lg flex flex-row items-center bg-white border border-black pl-5 gap-1   hover:border-zinc-500"
+              >
+                <FaUser size={18} color="black" />
+
+                <input
+                  onChange={(e) => setName(e.target.value)}
+                  type="text"
+                  id="name"
+                  value={name}
+                  className="bg-transparent border  border-none text-black text-sm rounded-xl hover:placeholder:text-black/20  block pl-2 w-full gap-1   outline-none  dark:placeholder-black "
+                  placeholder=" name"
+                />
+              </div>
+              {/* Email field */}
+              {/* <label
+              htmlFor="email"
+              className="block mb-2 text-sm font-medium text-gray-900 dark:text-black"
+            >
+              Email
+            </label> */}
+              {/*  */}
+              <div
+                style={{ width: "100%", height: "50px" }}
+                className="my-3 rounded-lg flex flex-row items-center bg-white border border-black pl-5 gap-1   hover:border-zinc-500"
+              >
+                <MdOutlineMailOutline size={24} color="black" />
+
+                <input
+                  onChange={(e) => setEmail(e.target.value)}
+                  type="email"
+                  id="email"
+                  value={email}
+                  className="bg-transparent border  border-none text-black text-sm rounded-xl hover:placeholder:text-black/20  block pl-2 w-full gap-1   outline-none  dark:placeholder-black"
+                  placeholder=" email"
+                />
+              </div>
+              {/* Password field */}
+              {/* <label
+              htmlFor="password"
+              className="block mb-2 text-sm font-medium text-gray-900 dark:text-black"
+            >
+              Password
+            </label>
+            <input
+              onChange={(e) => setPassword(e.target.value)}
+              type="password"
+              id="password"
+              value={password}
+              className="bg-gray-50 border mb-2 border-gray-300 text-gray-900 text-sm rounded-xl focus:ring-blue-500 focus:border-blue-500 block w-full p-3  dark:bg-white dark:border-black dark:placeholder-black dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              placeholder="Enter your password"
+            /> */}
+              {/* Phone field */}
+              {/* <label
+              htmlFor="phone"
+              className="block mb-2 text-sm font-medium text-gray-900 dark:text-black"
+            >
+              Phone
+            </label> */}
+              <div
+                style={{ width: "100%", height: "50px" }}
+                className="my-3 rounded-lg flex flex-row items-center bg-white border border-black pl-5 gap-1   hover:border-zinc-500"
+              >
+                <FaPhoneAlt size={18} color="black" />
+
+                <input
+                  onChange={(e) => setPhone(e.target.value)}
+                  type="tel"
+                  id="phone"
+                  value={phone}
+                  className="bg-transparent border  border-none text-black text-sm rounded-xl hover:placeholder:text-black/20 block pl-2 w-full gap-1   outline-none  dark:placeholder-black"
+                  placeholder=" phone number"
+                />
+              </div>
+              {/* MandalamMember field */}
+              {/* <label
+              htmlFor="mandalamMember"
+              className="block mb-2 text-sm font-medium text-gray-900 dark:text-black"
+            >
+              Mandalam Member
+            </label>
+            <input
+              onChange={(e) => setMandalamMember(e.target.value)}
+              type="text"
+              id="mandalamMember"
+              value={mandalamMember}
+              className="bg-gray-50 border mb-2 border-gray-300 text-gray-900 text-sm rounded-xl focus:ring-blue-500 focus:border-blue-500 block w-full p-3  dark:bg-white dark:border-black dark:placeholder-black dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              placeholder="Enter mandalam member"
+            /> */}
+
+              {/* MandlamPresident field */}
+              {/* <label
+              htmlFor="mandlamPresident"
+              className="block mb-2 text-sm font-medium text-gray-900 dark:text-black"
+            >
+              Mandlam President
+            </label>
+            <input
+              onChange={(e) => setMandlamPresident(e.target.value)}
+              type="text"
+              id="mandlamPresident"
+              value={mandlamPresident}
+              className="bg-gray-50 border mb-2 border-gray-300 text-gray-900 text-sm rounded-xl focus:ring-blue-500 focus:border-blue-500 block w-full p-3  dark:bg-white dark:border-black dark:placeholder-black dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              placeholder="Enter mandlam president"
+            /> */}
+            </div>

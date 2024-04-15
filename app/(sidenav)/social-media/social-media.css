@@ -1,0 +1,14 @@
+.tab-nav {
+    overflow-x: auto; /* Enable horizontal scrolling */
+    scrollbar-width: none; /* Hide the scrollbar in Firefox */
+    -ms-overflow-style: none; /* Hide the scrollbar in Internet Explorer/Edge */
+  }
+  
+  .tab-nav::-webkit-scrollbar {
+    width: 0; /* Width of the scrollbar (invisible) */
+  }
+  
+  .tab-nav::-webkit-scrollbar-thumb {
+    background-color: transparent; /* Make the thumb transparent */
+  }
+  

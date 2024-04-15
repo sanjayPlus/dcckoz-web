@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    font-family: "Poppins", sans-serif;
+}
+p{
+    @apply m-0
+}
+.tr-profile{
+    @apply h-8
+}
+.top-text{
+    text-shadow: 2px 2px 2px rgb(35, 35, 33);
+    color: white;
+}
+
+.nav-bg{
+    background: #007bff;
+}
+
+.react-datepicker {
+    font-family: 'Arial', sans-serif;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ced4da;
+    justify-items: center;
+    margin: 5px;
+}
+
+.react-datepicker__header {
+    background-color: #007bff; /* Example color */
+}
+
+.react-datepicker__day--selected {
+    background-color: #007bff; /* Example color */
+}
+
+.react-datepicker__day--keyboard-selected {
+    background-color: #007bff; /* Example color */
+}
+
+.react-datepicker__month-text, .react-datepicker__year-text {
+    color: #007bff; /* Example color */
+}
+
+.react-datepicker__day:hover {
+    background-color: rgba(0, 123, 255, 0.1); /* Example color */
+}
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+    -webkit-box-shadow: none; /* Remove the custom box-shadow */
+    -webkit-text-fill-color: initial; /* Reset the text color */
+}
+::-webkit-scrollbar {
+    width: 2px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  .PhoneInputInput{
+    @apply  bg-neutral-900 border-none outline-none text-white pl-2 w-full gap-1
+  }
